@@ -14,10 +14,24 @@ fi
 # exec gnome-session
 # exec startkde
 # exec startxfce4
-
-exec openbox-session
+# exec bspwm
+#exec openbox-session
 #exec i3
 
 #exec awesome
 
 # ...or the Window Manager of your choice
+
+# load Xresources, colours, fonts etc
+xrdb ~/.Xresources &
+
+# restore last used feh backgound
+~/.fehbg &
+
+# Simple X HotKey Daemon
+#sxhkd &
+
+# finally start window manager
+#exec bspwm
+exec openbox-session
+
