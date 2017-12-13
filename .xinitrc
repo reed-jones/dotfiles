@@ -29,9 +29,9 @@ xrdb ~/.Xresources &
 ~/.fehbg &
 
 # Simple X HotKey Daemon
-#sxhkd &
+sxhkd &
 
 # finally start window manager
-#exec bspwm
-exec openbox-session
+exec bspwm
+#exec openbox-session
 
