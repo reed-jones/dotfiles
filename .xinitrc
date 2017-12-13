@@ -25,13 +25,17 @@ fi
 # load Xresources, colours, fonts etc
 xrdb ~/.Xresources &
 
+compton --config $HOME/.config/compton/compton.conf &
+
 # restore last used feh backgound
 ~/.fehbg &
+
+# status bar/ systray
+tint2 &
 
 # Simple X HotKey Daemon
 sxhkd &
 
 # finally start window manager
 exec bspwm
-#exec openbox-session
 

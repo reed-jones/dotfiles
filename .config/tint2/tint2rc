@@ -6,8 +6,8 @@
 # Background 1: Panel
 rounded = 0
 border_width = 0
-background_color = #000000 60
-border_color = #000000 30
+background_color = #2F343F 100
+border_color = #2F343f 30
 background_color_hover = #000000 60
 border_color_hover = #000000 30
 background_color_pressed = #000000 60
@@ -58,11 +58,11 @@ border_color_pressed = #000000 100
 panel_items = LTSC
 panel_size = 100% 30
 panel_margin = 0 0
-panel_padding = 2 0 2
+panel_padding = 25 5 6
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
-panel_position = bottom center horizontal
+panel_position = top center horizontal
 panel_layer = top
 panel_monitor = all
 primary_monitor_first = 0
@@ -136,25 +136,26 @@ launcher_icon_asb = 100 0 0
 launcher_icon_theme_override = 0
 startup_notifications = 1
 launcher_tooltip = 1
-launcher_item_app = tint2conf.desktop
+#launcher_item_app = tint2conf.desktop
 launcher_item_app = firefox.desktop
-launcher_item_app = iceweasel.desktop
-launcher_item_app = chromium-browser.desktop
+#launcher_item_app = iceweasel.desktop
+#launcher_item_app = chromium-browser.desktop
 launcher_item_app = google-chrome.desktop
 
 #-------------------------------------
 # Clock
 time1_format = %H:%M
-time2_format = %A %d %B
+time1_font = "Fira Mono" 12
+#time2_format = %A %d %B
 time1_timezone = 
 time2_timezone = 
-clock_font_color = #ffffff 100
+clock_font_color = #D8DEE8 100
 clock_padding = 2 0
 clock_background_id = 0
 clock_tooltip = 
 clock_tooltip_timezone = 
 clock_lclick_command = 
-clock_rclick_command = orage
+#clock_rclick_command = orage
 clock_mclick_command = 
 clock_uwheel_command = 
 clock_dwheel_command = 

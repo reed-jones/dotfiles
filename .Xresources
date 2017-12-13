@@ -52,7 +52,7 @@ URxvt*iso14755:         false
 ! appearance
 URxvt*depth:            32
 !URxvt*background:      rgba:0000/0000/0000/AAAA
-!URxvt*background:      [100]#2f343f
+!URxvt*background:      [80]#2f343f
 URxvt.underlineColor:   #81a1c1
 URxvt.highlightColor:   #81a1c1
 URxvt.throughColor:     Blue
@@ -69,11 +69,20 @@ URxvt.letterSpace:      -1
 ! fonts
 !URxvt*boldFont: -uw-ttyp0-bold-r-normal-*-13-*-*-*-*-*-iso10646-1
 !URxvt*font: -uw-ttyp0-medium-r-normal-*-13-*-*-*-*-*-iso10646-1
-URxvt.font: xft:Fira Mono:size=12
+URxvt.font:             xft:Fira Mono:size=12
+
 ! perl extensions
-!URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select
+URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select
 !URxvt.perl-ext-common:  default,clipboard,url-select,keyboard-select,tabbed
 
-!URxvt.urlLauncher:      firefox
+URxvt.urlLauncher:      firefox
 URxvt.underlineURLs:    true
-!URxvt.urlButton: 1
+URxvt.urlButton:        1
+
+
+! ------------------------------------------------------------------------------
+! Rofi configs
+! ------------------------------------------------------------------------------
+
+! fonts
+rofi.font:     "Fira Mono" 12
