@@ -17,10 +17,11 @@ xrdb ~/.Xresources &
 compton --config $HOME/.config/compton/compton.conf &
 
 # restore last used feh backgound
+# feh --bg-fill -no-xinerama image.png
 ~/.fehbg &
 
 # status bar/ systray
-tint2 &
+#tint2 &
 
 # Simple X HotKey Daemon
 sxhkd &
