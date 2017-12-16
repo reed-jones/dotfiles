@@ -26,6 +26,9 @@ compton --config $HOME/.config/compton/compton.conf &
 # Simple X HotKey Daemon
 sxhkd &
 
+# Launch Polybar
+~/.config/polybar/launch.sh
+
 # finally start window manager
 exec bspwm
 
